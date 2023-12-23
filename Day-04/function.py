@@ -24,7 +24,7 @@ Z = mul (5,10)
 print(Z)
 
 
-# Other way of writing it or modularize.
+# Other way of writing it or modularize. ##
 
 def addition(num1,num2):
     add = num1 + num2
