@@ -56,3 +56,12 @@ for item in my_tuple:
 
 **Tuple:** Tuples consume less memory because they are immutable, and the interpreter can optimize memory usage.
 
+
+
+## Interview Q&A
+**Q1:** Difference between list and tuple
+**2:**. Is list mutable or immutable
+    Ans: it is mutable, here we can add or remove the elements in the list: Example: ec2 instances, s3 bucket
+**2:** is tuple mutable or immutable 
+    Ans: it is immutable, means add or remove elements cannot be possible: 
+        USe case: list of admin users 

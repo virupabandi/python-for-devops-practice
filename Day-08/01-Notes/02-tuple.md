@@ -56,3 +56,15 @@ def get_coordinates():
 
 x, y = get_coordinates()  # Unpack the returned tuple (x=3, y=4)
 ```
+
+## difference between lists and tuple
+ lists are mutable 
+ - you can add or remove the elements.
+ - square bracket is being used while writing lists
+
+
+ tuples are immutables
+ - means : once tuple is created it cannot be resized. which means you cannot remove or add elements.
+
+ - Tuples have good memory allocation footprint.
+ - normal bracket is being used while writing tuple
