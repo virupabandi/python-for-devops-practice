@@ -1,6 +1,7 @@
 # Basic-Level List Questions
 
 **Q1: What is a list in Python, and how is it used in DevOps?**
+    A list is a fundamental data structure in programming that allows you to store a collection of items. Lists are ordered and can contain elements of various data types, such as numbers, strings, and objects.
 
 **Q2: How do you create a list in Python, and can you provide an example related to DevOps?**
 

@@ -43,3 +43,33 @@ print(len(s3_bucket_lists))  # now check python list.py
 print(s3_bucket_lists[2])   # now check python list.py
 
 
+# now slicing the list, slicing is nothing but it will create the new list out of the existing list.
+#print(s3_bucket_lists[0:2]) # no name to the new list 
+# python list.py
+
+new_list = print(s3_bucket_lists[0:3])
+#python list.py
+
+# sort the numbers in order
+numbers = [1, 20, 15]
+numbers.sort()
+print(numbers)  #python test.py
+
+
+#concatenating the string
+print(s3_bucket_lists[0] + s3_bucket_lists[2])
+#python test.py
+
+print(s3_bucket_lists[0] + "+" + s3_bucket_lists[2])
+#python test.py
+
+print(s3_bucket_lists[0] + "--" + s3_bucket_lists[2])
+#python test.py
+
+#list heterogenous nature: which means all kind of data type (integer, float, string) can be used in the list as element.
+
+random_list = [1,2,3, "ram", "abhi", 7.5]
+print(random_list)
+#python list.py
+
+print(random_list[5])

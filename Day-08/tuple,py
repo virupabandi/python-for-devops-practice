@@ -12,7 +12,8 @@ print(type(s3_bucket_lists))
 # now add new element to the tuple
 
 s3_bucket_lists = ("viru_demo_bucket", "ram_demo_bucket", "john_demo_bucket", "tim_demo_bucket")
-s3_bucket_lists.append("new_s3_bucket")
+#s3_bucket_lists.append("new_s3_bucket")
 
-print(s3_bucket_lists) # now check python tuple.py, you will get error bcz tuple is immutable cannot be resized.
+#print(s3_bucket_lists) # now check python tuple.py, you will get error bcz tuple is immutable cannot be resized.
 
+print(len(s3_bucket_lists))
