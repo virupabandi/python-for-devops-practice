@@ -51,7 +51,7 @@ DevOps engineers often use "while" loops in various real-time use cases to autom
    done
    ```
 
-5. **Service Health Monitoring and Auto-Recovery:**
+5. **Service Health Monitoring and Auto-Recovery:**!
 
    DevOps engineers can use "while" loops to continuously check the health of services and automatically trigger recovery actions when services become unhealthy.
 
