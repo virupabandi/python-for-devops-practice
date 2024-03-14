@@ -31,3 +31,15 @@ In programming, a data type is a classification or categorization that specifies
 
 8. **Custom Data Types:**
    - You can also define your custom data types using classes and objects.
+
+
+- **Python is dynamically typed.
+
+- How Does compiler understand the data type?
+Ans: compiler will understand the data types based on the syntax that is being used. These kind of  programming languages are called as dynamically typed programming languages.
+
+- Each data type has some inbuilt functions. 
+- Apart from inbuilt functions we can customize the functions.
+- Python as a programming language has some inbuilt functions.
+
+
