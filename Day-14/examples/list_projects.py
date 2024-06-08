@@ -6,7 +6,7 @@ import json
 
 url = "https://veerupakshabandi.atlassian.net/rest/api/3/project"
 
-API_TOKEN="ATATT3xFfGF0faV9yWN_SrNwztQLekG9kVqeuihogAu0i7LYyhRXKULDmYgvpSq_Bl30BslrJRci4qQqAh3Dvq8yK6crLNlRtLCDyo7dcc49wuksApOGvxZelqXOOKqs2H1C09_Do39NJjMSOp1YhAfjKXUQxmPiRfch7RW0WHgu_uVB8Yew37s=147BFD0D"
+# API_TOKEN="ATATT3xFfGF0faV9yWN_SrNwztQLekG9kVqeuihogAu0i7LYyhRXKULDmYgvpSq_Bl30BslrJRci4qQqAh3Dvq8yK6crLNlRtLCDyo7dcc49wuksApOGvxZelqXOOKqs2H1C09_Do39NJjMSOp1YhAfjKXUQxmPiRfch7RW0WHgu_uVB8Yew37s=147BFD0D"
 
 auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", API_TOKEN)
 
