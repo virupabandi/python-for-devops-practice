@@ -4,11 +4,11 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://veerupakshabandi.atlassian.net/rest/api/3/issue"
+url = "https://url.atlassian.net/rest/api/3/issue"
 
-API_TOKEN = ""
 
-auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", API_TOKEN)
+
+auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", "api_token")
 
 headers = {
   "Accept": "application/json",
