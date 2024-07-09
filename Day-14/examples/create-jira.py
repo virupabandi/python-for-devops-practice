@@ -6,7 +6,7 @@ import json
 
 url = "https://veerupakshabandi.atlassian.net/rest/api/3/issue"
 
-API_TOKEN = "ATATT3xFfGF0ZOTZ3OnPrmx7XQYTlOpsFFMnIsxRQz0yfMMVBBg4lJN9DS_ah2cb2tBIHGccpYP7wXXv5qe6aR11ovIaneimoAZe_euR9KZG3iImbA2BwN329PFmQyA76UBspUHvu7Zrfze-icwp0LXJedf9zADsWKLOQXVJydBgdGgBavn_AyM=8CDF2E8E"
+API_TOKEN = ""
 
 auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", API_TOKEN)
 
