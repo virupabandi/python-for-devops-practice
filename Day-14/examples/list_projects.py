@@ -6,7 +6,7 @@ import json
 
 url = "https://veerupakshabandi.atlassian.net/rest/api/3/project"
 
-API_TOKEN="ATATT3xFfGF0faV9yWN_SrNwztQLekG9kVqeuihogAu0i7LYyhRXKULDmYgvpSq_Bl30BslrJRci4qQqAh3Dvq8yK6crLNlRtLCDyo7dcc49wuksApOGvxZelqXOOKqs2H1C09_Do39NJjMSOp1YhAfjKXUQxmPiRfch7RW0WHgu_uVB8Yew37s=147BFD0D"
+API_TOKEN="ATATT3xFfGF0ZOTZ3OnPrmx7XQYTlOpsFFMnIsxRQz0yfMMVBBg4lJN9DS_ah2cb2tBIHGccpYP7wXXv5qe6aR11ovIaneimoAZe_euR9KZG3iImbA2BwN329PFmQyA76UBspUHvu7Zrfze-icwp0LXJedf9zADsWKLOQXVJydBgdGgBavn_AyM=8CDF2E8E"
 
 auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", API_TOKEN)
 
@@ -23,7 +23,7 @@ response = requests.request(
 
 # To print output in the json format please uncomment the below line
 
-# print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
+#print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
 
 # To Print project name.
 output = json.loads(response.text)

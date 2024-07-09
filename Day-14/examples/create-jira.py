@@ -4,11 +4,11 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
+url = "https://veerupakshabandi.atlassian.net/rest/api/3/issue"
 
-API_TOKEN = ""
+API_TOKEN = "ATATT3xFfGF0ZOTZ3OnPrmx7XQYTlOpsFFMnIsxRQz0yfMMVBBg4lJN9DS_ah2cb2tBIHGccpYP7wXXv5qe6aR11ovIaneimoAZe_euR9KZG3iImbA2BwN329PFmQyA76UBspUHvu7Zrfze-icwp0LXJedf9zADsWKLOQXVJydBgdGgBavn_AyM=8CDF2E8E"
 
-auth = HTTPBasicAuth("", API_TOKEN)
+auth = HTTPBasicAuth("veerupaksha.bandi@gmail.com", API_TOKEN)
 
 headers = {
   "Accept": "application/json",
@@ -22,7 +22,7 @@ payload = json.dumps( {
         {
           "content": [
             {
-              "text": "My first jira ticket",
+              "text": "My first Jira ticket.",
               "type": "text"
             }
           ],
@@ -32,11 +32,11 @@ payload = json.dumps( {
       "type": "doc",
       "version": 1
     },
-    "project": {
-      "key": "AB"
-    },
     "issuetype": {
-      "id": "10006"
+      "id": "10001"
+    },
+    "project": {
+      "key": "SCRUM"
     },
     "summary": "First JIRA Ticket",
   },
