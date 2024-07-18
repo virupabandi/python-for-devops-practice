@@ -1,4 +1,14 @@
-# flast comes with an inbuilt server
+#flask installation in ubuntu
+
+# sudo apt update
+#sudo apt install python3-pip python3-setuptools
+#sudo apt install python3-venv
+#python3 -m venv myflaskenv
+#source myflaskenv/bin/activate
+#pip3 install Flask
+#pip3 show flask
+
+# flask comes with an inbuilt server
 # Importing a Flask module from flask package
 #from flask import Flask
 
